@@ -380,8 +380,8 @@ export async function POST(req: NextRequest) {
 Senior Software Engineer
 
 Louis Bailey
-louisbailey21412@gmail.com
 Senior Software Engineer
+luoisbailey21412@gmail.com
 +1 (430) 964 0645
 San Antonio, TX, USA
 
