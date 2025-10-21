@@ -379,70 +379,60 @@ export async function POST(req: NextRequest) {
     let baseResume: string = `
 Senior Software Engineer
 
-Louis Bailey
-Senior Software Engineer
-luoisbailey21412@gmail.com
-+1 (430) 964 0645
-San Antonio, TX, USA
+Zain Abdeen
+https://www.linkedin.com/in/zain-abdeen-445673219/
+zainabdeen0110@outlook.com
++1 423 301 2901
+Tampa, Florida, USA
 
-Summary:
+Summary: 
 
-Senior Software Engineer with over 10 years of experience delivering scalable, high-performance SaaS platforms and web/mobile applications 
-across diverse domains including finance, retail, and education. Proven expertise in cloud-native architectures, microservices, and full-stack development 
-using technologies like C#, ASP.NET Core, React.js, Node.js, Python, Docker, and Kubernetes. Skilled in driving large-scale cloud migrations, real-time systems, and secure API 
-integrations that serve multi-tenant environments and global user bases. Known for leading cross-functional teams and delivering mission-critical solutions 
-with high availability and performance. Passionate about DevOps, automation (CI/CD), and building robust platforms that improve operational efficiency, developer productivity, and customer experience.
-
+Full Stack Engineer with 10+ years of experience delivering scalable SaaS platforms and cloud-native applications across fintech, edtech, and healthcare. 
+Expert in Node.js, C# (.NET), Python (Flask), and Laravel, with strong frontend skills in React, Vue, Svelte, and TypeScript. 
+Skilled in microservices, real-time systems, and DevOps practices (Docker, Kubernetes, CI/CD). Proven ability to build secure, performant APIs and integrate AI/ML models and third-party systems. 
+Committed to clean architecture, accessibility, and cross-functional collaboration.
 
 Professional Experience:
 
-Senior Software Engineer at Softcom: 06/2022 - Current
-•	Led the platform-wide modernization effort by decomposing a tightly coupled legacy application into independent microservices using ASP.NET Core, containerized with Docker, and orchestrated via Kubernetes. Migrating workloads to AWS (ECS, RDS, S3, CloudWatch) reduced infrastructure costs by 25%, improved deployment reliability, and increased system uptime to 99.97%, enabling on-demand scalability and region-specific failover.
-•	Designed and implemented RESTful API gateways and internal services using .NET 6, TypeScript, and Node.js, establishing standardized service contracts for internal and external integrations. These APIs supported customer usage metering, billing, authentication, and workflow automations, and were hardened for multitenancy using strict isolation and tenant-aware logic.
-•	Developed a centralized customer and user identity management service using Entity Framework Core, PostgreSQL, and Redis for session caching. This system unified authentication across web, mobile, and partner apps, and allowed dynamic permission and role mapping for thousands of enterprise tenants with complex access control models.
-•	Built real-time communication and collaboration pipelines using SignalR, Azure Service Bus, and Redis Pub/Sub, enabling rich interactive features like presence detection, live updates, and cross-user notifications within a collaborative workspace UI. These capabilities were instrumental in expanding the platform's value to remote teams and distributed users.
-•	Spearheaded the development of an integrated video calling and virtual meeting module using WebRTC, tightly coupled with the calendar, chat, and scheduling systems. Backed by ASP.NET Core APIs and a React Native frontend, the module improved product engagement and reduced churn for enterprise customers offering remote support or virtual consultation services.
-•	Collaborated with data science teams to integrate machine learning models for customer behavior prediction and usage insights. We exposed TensorFlow models via RESTful endpoints using ASP.NET Core, and used them to power recommendation engines, usage alerts, and intelligent onboarding workflows — leading to a measurable drop in churn and a 21% increase in feature adoption.
-•	Automated billing, usage tracking, and claims processing workflows using Azure Logic Apps, SQL Server, and Entity Framework, connecting seamlessly to third-party CRMs, payment gateways, and finance systems. These automations reduced manual data entry by over 40% and ensured accuracy in invoicing and revenue recognition.
-•	Implemented enterprise-grade security architecture using OAuth 2.0, JWT tokens, and RBAC policies, supporting granular permissions, audit trails, and identity federation (via SAML/OIDC). Worked closely with InfoSec to conduct penetration testing, threat modeling, and ensure SOC 2 Type II compliance.
-•	Established CI/CD pipelines using Azure DevOps, GitLab, and GitHub Actions, integrating build, test, and deployment stages with Terraform for infrastructure provisioning. Leveraged ELK Stack, Prometheus, and Grafana for real-time monitoring, telemetry, and alerting. These pipelines enabled daily releases with rollback support and significantly reduced production incident recovery times.
+Senior Software Engineer at EmergentWirelessSolutions: 03/2023 - Current
+•	Collaborated with data science teams to integrate AI/ML services into production workflows, deploying Flask- and FastAPI-based microservices to power personalization, content categorization, and real-time learner analytics.
+•	Designed and maintained queue-based architectures using Celery and Redis, orchestrating asynchronous processing pipelines for appointments, content recommendations, and background jobs—resulting in a 33% latency reduction during traffic spikes.
+•	Led the architecture and delivery of a modular CMS platform using Django and PostgreSQL, with role-based publishing workflows and fine-grained permissions, scaling to over 500K monthly users with 62% faster content publishing cycles.
+•	Optimized backend infrastructure with Redis caching and Cloudflare CDN, improving global API responsiveness by 320ms and achieving a 46% improvement in page load speeds under high concurrency.
+•	Integrated role-based access control and multi-factor authentication (MFA) into an enterprise-grade EHR platform using Flask and MongoDB, securing sensitive medical records (HIPAA-compliant) for 200+ clinics and 1M+ patient records.
+•	Automated CI/CD pipelines with Docker, GitHub Actions, and Kubernetes, enabling blue-green deployments, zero-downtime updates, and consistent delivery across staging, QA, and production environments.
+•	Oversaw the full ML pipeline lifecycle, from data wrangling (pandas, NumPy) and model training (scikit-learn, TensorFlow) to inference serving via FastAPI with GPU-optimized deployments on AWS SageMaker and Lambda.
 
-Software Engineer at Rover: 03/2020 – 09/2022
-•	Spearheaded the migration of Rover’s legacy monolithic architecture to a containerized microservices ecosystem using ASP.NET Core, Docker, and Kubernetes, enhancing scalability and fault tolerance while improving development agility.
-•	Designed and developed APIs to support core features such as pet service bookings, sitter onboarding, payment transactions, and secure user authentication. Integrated Stripe for payment processing and enforced secure OAuth 2.0 and JWT protocols to ensure safe and seamless financial transactions across web and mobile applications.
-•	Led the development of cross-platform mobile applications using React Native and ASP.NET Core, allowing users to manage bookings, view sitter profiles, and communicate on-the-go. The intuitive mobile experience contributed to a 20% increase in app engagement and user satisfaction across both iOS and Android platforms.
-•	Built a real-time pet tracking and notification system using SignalR, Redis, and Google Maps APIs, which allowed pet owners to receive instant updates and live tracking during walks or boarding sessions. This transparency significantly increased user trust and engagement, leading to a measurable boost in customer retention.
-•	Collaborated with data scientists to integrate machine learning models that delivered personalized pet sitter recommendations based on historical data, behavior, and preferences. These ML-driven enhancements resulted in improved booking rates and a more tailored user experience, helping Rover match customers with ideal service providers.
-•	Introduced automated CI/CD pipelines using Jenkins and GitLab, reducing deployment times by 34% and increasing release stability. This automation ensured quick iteration, consistent quality, and reduced hotfix incidents, while supporting parallel development across multiple microservices.
-•	Played a central role in strengthening platform-wide security by implementing role-based access control (RBAC), encrypting sensitive user data, and integrating fine-grained permissions. This ensured compliance with industry standards and greatly reduced the risk of data breaches and unauthorized access, especially during platform scaling and geographic expansion.
-•	Developed and integrated internationalization (i18n) support, enabling the platform to support multiple languages and currencies. This effort allowed Rover to enter new global markets and increased international user adoption while maintaining consistent UX across all regions.
+Software Engineer at EmergentWirelessSolutions : 10/2020 – 03/2023
+•	Architected and implemented a scalable e-Learning and Content Management System using Python (FastAPI), Express (Node.js), and PostgreSQL, reducing manual academic coordination by 73% and supporting 10,000+ concurrent users with multi-tenant capabilities.
+•	Developed intelligent course recommendation and auto-tagging features using scikit-learn and spaCy, increasing learner engagement and content discoverability—leading to a 38% rise in course completions.
+•	Built a modern, ADA-compliant frontend using React.js and Tailwind CSS with deep integration into Python services, improving accessibility scores and reducing bounce rates by 33% across course pages.
+•	Engineered GraphQL and RESTful APIs in Django and Graphene to support real-time e-commerce campaign management (Shopify, Klaviyo, Recharge), handling over $10M in annual transaction volume.
+•	Led real-time collaboration feature development including live document editing, chat, and virtual classroom support using Python WebSocket servers and Socket.IO—resulting in a 38% increase in platform session time.
+•	Designed reusable, security-focused middleware layers in FastAPI, covering API rate-limiting, audit logging, token-based auth, and input validation—helping reduce API error rates and improve traceability.
+•	Refactored a legacy Node.js monolith into independently deployed Python microservices, applying Clean Architecture, DDD principles, and CI best practices to reduce developer onboarding time by 45% and improve maintainability.
 
-Software Developer at Intuit : 01/2018 – 02/2020
-•	Built scalable microservices using Node.js, Express, and TypeScript to handle millions of retail transactions, inventory updates, and order workflows, integrating with Stripe, PayPal, and logistics providers for seamless payment and fulfillment.
-•	Modernized the e-commerce frontend with React.js, Redux, and TypeScript, improving load times, responsiveness, and accessibility across devices while enhancing user experience for millions of shoppers.
-•	Led a large-scale cloud migration to AWS using Docker, Kubernetes, and Terraform, enabling autoscaling, reducing downtime incidents by 30%, and cutting infrastructure costs by transitioning from fixed provisioning to cloud-native elasticity.
-•	Optimized MongoDB and PostgreSQL databases by refactoring schemas, implementing sharding strategies, and applying indexing techniques, improving query speeds by 40% for catalogs, customer accounts, and transaction histories.
-•	Implemented secure authentication using JWT, OAuth 2.0, and MFA for customers and internal staff, achieving full PCI DSS, GDPR, and CCPA compliance while supporting detailed audit logging.
-•	Developed real-time event-driven systems with WebSockets and Redis for live inventory tracking, order notifications, and promotional updates, boosting customer engagement and retention.
-•	Automated CI/CD pipelines using Jenkins, GitLab CI, and Docker, reducing average deployment times by 40%, improving rollback reliability, and enabling blue/green deployment strategies for high-traffic retail platforms.
-•	Partnered with data science teams to integrate TensorFlow-based ML recommendation engines, delivering personalized product suggestions, upsell and cross-sell opportunities, and enhancing overall shopping experience.
+Software Developer at 3MK Software Solutions LLC : 06/2016 – 03/2020
+•	Rebuilt a monolithic video analytics portal into modular, Python and Laravel-based microservices, using Service-Oriented Architecture (SOA) to enable scalable ingestion and analysis of high-volume emotional response data across marketing and research campaigns.
+•	Re-architected a Learning Management System into Laravel and Python (FastAPI)-based microservices, supporting scalable delivery of multimedia courses, adaptive assessments, and real-time learning paths across thousands of concurrent learners.
+•	Built secure, scalable RESTful APIs using Laravel (Sanctum, Passport) and Python (FastAPI, OAuth2), enabling multi-tenant student progress tracking, RBAC, and SAML-based SSO integration for educational institutions.
+•	Led the development of real-time analytics dashboards with Vue.js, Inertia.js, and Blade templates, integrating WebSocket engagement tracking (Laravel Echo + Pusher) and Python-based logging services to visualize learner interactions during lectures and exams.
+•	Integrated Flask-based AI/ML microservices into the LMS, powering automated content tagging, learning path personalization, and real-time sentiment analysis. Communicated via secure JSON APIs and asynchronous webhooks for low-latency ML insights.
+•	Collaborated with data science teams to deploy NLP and recommendation models using Python (spaCy, scikit-learn, TensorFlow), enabling tailored content delivery and dynamic quiz generation based on user behavior.
+•	Refactored legacy ASP.NET Core (C#) services and integrated with Laravel + Python stack, aligning authentication, user data models, and shared assessment data pipelines for unified system behavior and gradual service migration.
+•	Developed CMS-driven course creation features using Strapi, Drupal, WordPress, and Flask-admin, allowing instructors to manage lessons, quizzes, and media assets—cutting course setup time by 45%.
+•	Built micro-frontends with React, TypeScript, and Tailwind CSS, offering reusable UI components for feedback collection, progress reporting, and accessibility-compliant (WCAG 2.1) learning interfaces across devices.
+•	Engineered end-to-end CI/CD pipelines with GitHub Actions and Azure DevOps, orchestrating Python (pytest), PHP (PHPUnit), and .NET (xUnit) unit tests, Docker-based container builds, and blue-green deployments on Kubernetes for zero-downtime releases.
+•	Integrated external academic platforms (SIS, LMS plugins, AI grading engines) through OAuth2-secured APIs, webhooks, and ETL pipelines (Python-based), ensuring seamless sync of enrollment, attendance, and evaluation records across institutional systems.
+•	Applied professional software engineering practices, including Clean Architecture, domain-driven design (DDD), infrastructure-as-code (Terraform, Docker Compose), and Agile delivery with Jira and Confluence.
 
-Associate Software Developer at The Home Spot : 02/2017 – 03/2018
-•	Developed a real-time inventory management system using ASP.NET Core, Java(Spring) and AngularJS, enabling stock tracking across hundreds of stores. This increased inventory visibility, reduced shortages, and provided employees with timely data to fulfill customer demand more effectively.
-•	Spearheaded the migration from a monolithic system to a containerized microservices architecture using Java-based services, Docker and Kubernetes, allowing for improved scalability, faster deployment cycles, and seamless handling of seasonal traffic surges during major retail events.
-•	Developed RESTful APIs for mission-critical services including order processing, inventory sync, and customer profile management using Java(Spring Boot) and .NET Core. These integrations enabled faster data flow between frontend and backend systems, resulting in a smoother checkout experience for online shoppers.
-•	Implemented secure authentication mechanisms using OAuth 2.0, JWT, and multi-factor authentication (MFA) for both customers and internal staff. These upgrades significantly improved the platform’s security posture, especially around sensitive customer and payment data.
-•	Designed and launched a mobile-first frontend using React Native, allowing store associates to manage inventory, access order details, and serve customers via handheld devices. This innovation boosted in-store operational efficiency and streamlined task execution on the sales floor.
-•	Migrated core applications to AWS cloud infrastructure using EC2, S3, and RDS, leading to a 21% reduction in infrastructure costs and substantial gains in platform reliability and availability during promotional periods.
-•	Automated the CI/CD pipeline using Jenkins and GitLab CI, minimizing manual intervention and reducing release downtime by 32%. This allowed the engineering team to deploy new features and fixes more frequently and reliably.
-
-Web Developer Intern at IBM : 11/2015 – 02/2017
-•	Developed and maintained the core HR management platform using React.js for the frontend and Node.js with Express.js for the backend, providing HR managers and employees with a smooth and interactive interface.
-•	Built and integrated RESTful APIs to handle employee authentication, payroll management, leave requests, and performance tracking, ensuring a seamless experience for both HR teams and employees.
-•	Optimized database schemas in MongoDB and PostgreSQL to efficiently store employee records, training modules, and engagement analytics, enabling fast retrieval and secure data handling for thousands of users.
-•	Worked on real-time communication features using WebSockets, allowing managers and employees to engage in live chats, performance reviews, and onboarding sessions.
-•	Collaborated with the product and design teams to continually enhance the platform’s UI/UX, introducing personalized dashboards, notifications, and reporting tools for HR administrators.
-•	Integrated third-party services like Zoom and Google Workspace for virtual interviews, training sessions, and document management, enabling HR operations without leaving the platform.
+Freelance Web Developer at Upwork : 09/2015 – 03/2017
+•	Developed and maintained a modern, component-based learning platform UI using React.js, later migrating select modules to Vue 3 and SvelteKit for performance-critical dashboards. Prioritized accessibility, responsiveness, and cross-browser compatibility across devices.
+•	Crafted responsive layouts using TailwindCSS and custom utility classes, ensuring pixel-perfect design consistency across mobile, tablet, and desktop. Achieved full WCAG AA compliance for accessibility in all core learning modules.
+•	Built modular frontend logic using TypeScript, enhancing maintainability and reducing runtime errors in production by nearly 43%. Leveraged Vite and ESBuild for blazing-fast dev experience and optimized builds.
+•	Integrated and consumed RESTful APIs for authentication, course content, and student data, using Axios and Fetch with robust error handling and caching. Improved perceived performance by preloading assets and using skeleton loaders in Vue and React.
+•	Designed real-time classroom features using WebSockets and reactive state management libraries (e.g., Svelte stores, Vuex, Redux Toolkit), enabling instant messaging, quiz polling, and collaborative tools with minimal latency.
+•	Integrated third-party services like Zoom (live video classrooms) and Google Drive (file sharing), embedding them via custom modals and safe iFrame wrappers. Enabled seamless, in-app usage without disrupting navigation flow.
 
 
 Skills:
@@ -542,7 +532,7 @@ The University of Tokyo | Japan
     const pdfBytes = await generateResumePdf(tailoredResume);
 
     // 5. Return PDF as response
-    const fileBase = `Louis_Bailey_${company.replace(/[^a-zA-Z0-9_]/g, '_')}_${role.replace(/[^a-zA-Z0-9_]/g, '_')}`;
+    const fileBase = `Zain_Abdeen_${company.replace(/[^a-zA-Z0-9_]/g, '_')}_${role.replace(/[^a-zA-Z0-9_]/g, '_')}`;
     return new NextResponse(Buffer.from(pdfBytes), {
       status: 200,
       headers: {
